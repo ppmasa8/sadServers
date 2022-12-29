@@ -1,8 +1,8 @@
 
 #	Name	Level	Time	Released	
-- [ ] 1	"Saint John": what is writing to this log file?	Easy	10 m	2022-08-03	
+- [x] 1	"Saint John": what is writing to this log file?	Easy	10 m	2022-08-03	
  
-- [ ] 2	"Santiago": Find the secret combination	Easy	15 m	2022-09-16	
+- [x] 2	"Santiago": Find the secret combination	Easy	15 m	2022-09-16	
  
 - [ ] 3	"Saskatoon": counting IPs.	Easy	15 m	2022-08-31	
  
