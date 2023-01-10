@@ -4,7 +4,7 @@
  
 - [x] 2	"Santiago": Find the secret combination	Easy	15 m	2022-09-16	
  
-- [ ] 3	"Saskatoon": counting IPs.	Easy	15 m	2022-08-31	
+- [x] 3	"Saskatoon": counting IPs.	Easy	15 m	2022-08-31	
  
 - [ ] 4	"Tokyo": can't serve web file	Medium	15 m	2022-08-01	
  
