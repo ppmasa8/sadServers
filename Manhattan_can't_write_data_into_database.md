@@ -17,6 +17,32 @@ OS: Debian 10
 ```
 
 ## Solving process
+1. Check test.
 ```bash
+$ sudo systemctl status postgresql
+$ ps aux | grep postgres
+```
 
+2. try
+```bash
+$ sudo systemctl start postgresql
+```
+
+3. check err
+```bash
+$ journalctl -p err
+$ grep postgres /var/log/syslog
+```
+
+4. check disk space
+```bash
+$ df -h
+$ grep -i 'no space left' /var/log/syslog
+$ cd opt/pgdata | ls -l
+$ du -sh /opt/pgdata/{each_file}
+
+5. Delete heaviest file
+```bash
+$ rm opt/pgdata/*.bk
+$ sudo systemctl start postgresql
 ```
