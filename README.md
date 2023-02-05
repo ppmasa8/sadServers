@@ -6,7 +6,7 @@
  
 - [x] 3	"Santiago": Find the secret combination	Easy	15 m	2022-09-16	
  
-- [ ] 4	"Manhattan": can't write data into database.	Medium	20 m	2022-06-13	
+- [x] 4	"Manhattan": can't write data into database.	Medium	20 m	2022-06-13	
  
 - [ ] 5	"Tokyo": can't serve web file	Medium	15 m	2022-08-01	
  
