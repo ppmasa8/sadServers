@@ -40,9 +40,11 @@ $ df -h
 $ grep -i 'no space left' /var/log/syslog
 $ cd opt/pgdata | ls -l
 $ du -sh /opt/pgdata/{each_file}
+```
 
 5. Delete heaviest file
 ```bash
 $ rm opt/pgdata/*.bk
 $ sudo systemctl start postgresql
 ```
+
